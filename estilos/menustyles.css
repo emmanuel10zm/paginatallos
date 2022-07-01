@@ -1,0 +1,235 @@
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 80px;
+    background-color: #203525;
+}
+
+.menua {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+
+    background-color: none;
+    border: none;
+}
+
+.menuul {
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+}
+
+.menuitem {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0 10px;
+    line-height: 40px;
+    width: max-content;
+    text-transform: uppercase;
+}
+
+.logo img {
+    height: 60px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.titulos {
+    font-size: 28px;
+}
+
+.entradas {
+    overflow: hidden;
+    margin: auto;
+}
+
+.entradascelda {
+    display: table-cell;
+    padding-left: 40px;
+}
+
+/*.entradascelda:nth-child(2)
+{
+   
+}*/
+.dipscelda {
+    display: table-cell;
+    padding-left: 40px;
+}
+
+.fuertescelda {
+    display: table-cell;
+    padding-left: 40px;
+}
+
+.snackcelda {
+    display: table-cell;
+    padding-left: 40px;
+}
+
+.sopacelda {
+    display: table-cell;
+    padding-left: 40px;
+}
+
+.bebcelda {
+    display: table-cell;
+    padding-left: 40px;
+}
+
+.bebcelda2 {
+    display: table-cell;
+    padding-left: 40px;
+}
+
+.coccelda {
+    display: table-cell;
+    padding-left: 40px;
+}
+
+.frappecelda {
+    display: table-cell;
+    padding-left: 40px;
+}
+.vinocelda
+{
+    display: table-cell;
+    padding-left: 40px;
+}
+.cercelda
+{
+    display: table-cell;
+    padding-left: 40px;
+}
+.descelda{
+    display: table-cell;
+    padding-left: 40px;
+}
+.ntoggle {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 30px;
+    padding: 0;
+    line-height: 60px;
+    display: none;
+    cursor: pointer;
+}
+
+@media (max-width: 830px) {
+    h2 {
+        font-size: 17px;
+    }
+
+    h4 {
+        font-size: 14px;
+    }
+
+    header {
+        display: flex;
+        height: 60px;
+        background-color: #203525;
+        justify-content: center;
+    }
+
+    .logo img {
+        display: none;
+    }
+
+    .ntoggle {
+        margin-top: 2px;
+        display: block;
+    }
+
+    .menuul {
+        flex-direction: column;
+        margin-right: 20px;
+        position: fixed;
+        top: 40px;
+        width: 100%;
+        left: 100%;
+        transition: 0.3s;
+        background-color: #203525;
+        align-items:center;
+    }
+
+    .ntoggle img {
+        align-items: center;
+    }
+
+    .menuitem {
+        line-height: 40px;
+    }
+
+    .menuul_visible {
+        left: -35px;
+    }
+
+    .entradas {
+        padding-top: 35px;
+    }
+
+    .entradascelda {
+        flex-wrap: wrap;
+        display: block;
+    }
+
+    .dipscelda {
+        flex-wrap: wrap;
+        display: block;
+    }
+    .descelda{
+        flex-wrap: wrap;
+        display: block;
+    }
+    .fuertescelda {
+        flex-wrap: wrap;
+        display: block;
+    }
+
+    .sopacelda {
+        flex-wrap: wrap;
+        display: block;
+    }
+
+    .snackcelda {
+        flex-wrap: wrap;
+        display: block;
+    }
+
+    .bebcelda {
+        flex-wrap: wrap;
+        display: block;
+    }
+
+    .bebcelda2 {
+        flex-wrap: wrap;
+        display: block;
+    }
+
+    .coccelda {
+        flex-wrap: wrap;
+        display: block;
+    }
+
+    .frappecelda {
+        flex-wrap: wrap;
+        display: block;
+    }
+    .vinocelda
+{
+    flex-wrap: wrap;
+    display: block;
+}
+.cercelda
+{
+    flex-wrap: wrap;
+    display: block;
+}
+}
