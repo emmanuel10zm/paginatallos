@@ -23,6 +23,9 @@ header {
     margin-right: 40px;
     list-style: none;
 }
+.menuindex{
+    display: none;
+}
 
 .menuitem {
     color: white;
@@ -33,7 +36,16 @@ header {
     width: max-content;
     text-transform: uppercase;
 }
-
+.ntoggle {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 30px;
+    padding: 0;
+    line-height: 60px;
+    display: none;
+    cursor: pointer;
+}
 .logo img {
     height: 60px;
     margin-top: 10px;
@@ -54,10 +66,6 @@ header {
     padding-left: 40px;
 }
 
-/*.entradascelda:nth-child(2)
-{
-   
-}*/
 .dipscelda {
     display: table-cell;
     padding-left: 40px;
@@ -111,16 +119,7 @@ header {
     display: table-cell;
     padding-left: 40px;
 }
-.ntoggle {
-    background: none;
-    border: none;
-    color: white;
-    font-size: 30px;
-    padding: 0;
-    line-height: 60px;
-    display: none;
-    cursor: pointer;
-}
+
 
 @media (max-width: 830px) {
     h2 {
@@ -157,6 +156,9 @@ header {
         transition: 0.3s;
         background-color: #203525;
         align-items:center;
+    }
+    .menuindex{
+        display:block;
     }
 
     .ntoggle img {
