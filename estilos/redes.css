@@ -136,7 +136,7 @@ header {
 
 @media (max-width: 780px) {
     .contenedor{
-        margin-top: 100px;
+        margin-top: 50px;
     }
     .whatsAppBtn img {
         max-width: 220px;
@@ -148,12 +148,13 @@ header {
         margin-top: 50px;
     }
 
-    .face img {
-        max-width: 200px;
-        margin-top: 40px;
-    }
     .instagram img {
         max-width: 200px;
+    }
+
+    .face img {
+        max-width: 200px;
+        margin-top: 30px;
     }
     .whatsAppBtn
     {
