@@ -1,0 +1,195 @@
+body {
+    background-color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* HEADER */ 
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 70px;
+    background-color: #203525;
+    text-align: center;
+    color: white;
+}
+/*Pie de pagina para botones*/
+
+.whatsAppBtn {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    background: none;
+    border: none;
+    transition: transform 0.25s ease-in-out;
+    z-index: 2;
+}
+
+.whatsAppBtn:hover {
+    transform: scale(1.1);
+}
+
+.whatsAppBtn img {
+    max-width: 200px;
+}
+
+.resopentable {
+    position: fixed;
+    bottom: 50px;
+    left: 50px;
+    background: none;
+    border: none;
+    transition: transform 0.25s ease-in-out;
+    z-index: 2;
+}
+
+.resopentable:hover {
+    transform: scale(1.1);
+}
+
+.resopentable img {
+    max-width: 200px;
+}
+
+/* Imagenes boton de Menu e Inicio*/
+.botones {
+    margin-top: 100px;
+}
+
+.menubtn img {
+    display: flexbox;
+    position: fixed;
+    left: 42%;
+    right: 10%;
+}
+
+.menubtn :hover {
+    transform: scale(1.1);
+}
+
+.redesbtn img {
+    display: flexbox;
+    position: fixed;
+    top: 40%;
+    left: 30%;
+    right: 10%;
+
+}
+
+.redesbtn :hover {
+    transform: scale(1.1);
+}
+
+.facturabtn img {
+    display: flexbox;
+    position: fixed;
+    top: 40%;
+    left: 53%;
+    right: 10%;
+}
+
+.facturabtn :hover {
+    transform: scale(1.1);
+}
+
+/* background*/
+
+#fondo9{
+    display: flex;
+    border-radius: 40%;
+    width: 200px;
+    right: 10px;
+    bottom: 100px;
+    position: absolute;
+}
+#fondo2{
+    display: flex;
+    width: 200px;
+    position: absolute;
+}
+#fondo4{
+    display: flex;
+    width: 200px;
+    position: absolute;
+    right: 0;
+}
+
+@media (max-width: 1400px) {
+    .whatsAppBtn img {
+        max-width: 100px;
+    }
+
+    .resopentable img {
+        max-width: 100px;
+    }
+    .botones{
+        margin-top: 150px;
+    }
+    .menubtn img {
+        width: 40%;
+        margin-left: -11%;
+        display:  flexbox;
+
+    }
+
+    .redesbtn img {
+        margin-top: 50px;
+        width: 35%;
+        left: 10%;
+        display: inline-flexbox;
+    }
+
+    .facturabtn img {
+        width: 35%;
+        margin-top: 50px;
+        margin-left: 4%;
+        display: inline-flexbox;
+    }
+}
+@media (max-width: 580px) {
+    .whatsAppBtn img {
+        max-width: 100px;
+    }
+
+    .resopentable img {
+        max-width: 100px;
+    }
+    .botones{
+        margin-top: 150;
+    }
+    .menubtn img {
+        width: 65%;
+        margin-left: -23%;
+        display: flexbox;
+    }
+
+    .redesbtn img {
+        margin-top: 80px;
+        width: 35%;
+        left: 10%;
+        display: inline-flexbox;
+    }
+
+    .facturabtn img {
+        width: 35%;
+        margin-top: 80px;
+        margin-left: 4%;
+        display: inline-flexbox;
+    }
+    /* FONDO */
+    #fondo9
+    {
+        bottom: 100px;
+        width: 150px;
+        right: 130px
+    } 
+    #fondo2{
+        width: 100px;
+        left: 0;
+    }
+    #fondo4{
+        width: 90px;
+        right: 0;
+        margin-top: 40px;
+    }
+}
