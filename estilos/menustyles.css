@@ -123,6 +123,27 @@ header {
 .opacidad{
     opacity: 20%;
 }
+#fondo1{
+    display: flex;
+    width: 100px;
+    position: absolute;
+    right: 20px;
+    border-radius: 95%;
+}
+#fondo2{
+    display: flex;
+    width: 100px;
+    position: absolute;
+    right: 20px;
+    border-radius: 95%;
+}
+#fondo3{
+    display: flex;
+    width: 100px;
+    position: absolute;
+    right: 20px;
+    border-radius: 95%;
+}
 #fondo6{
     display: flex;
     width: 200px;
@@ -170,6 +191,27 @@ header {
     width: 200px;
     position: absolute;
     right: 0;
+    border-radius: 60%;
+}
+#fondo13{
+    display: flex;
+    width: 200px;
+    position: absolute;
+    left: 0;
+    border-radius: 60%;
+}
+#fondo14{
+    display: flex;
+    width: 200px;
+    position: absolute;
+    right: 0;
+    border-radius: 60%;
+}
+#fondo15{
+    display: flex;
+    width: 200px;
+    position: absolute;
+    left: 0;
     border-radius: 60%;
 }
 
