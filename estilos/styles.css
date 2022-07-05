@@ -53,7 +53,7 @@ header {
 
 /* Imagenes boton de Menu e Inicio*/
 .botones {
-    margin-top: 150px;
+    margin-top: 100px;
 }
 
 .menubtn img {
@@ -123,7 +123,7 @@ header {
         max-width: 100px;
     }
     .botones{
-        margin-top: 140px;
+        margin-top: 150px;
     }
     .menubtn img {
         width: 40%;
@@ -164,7 +164,7 @@ header {
     }
 
     .redesbtn img {
-        margin-top: 50px;
+        margin-top: 80px;
         width: 35%;
         left: 10%;
         display: inline-flexbox;
@@ -172,16 +172,16 @@ header {
 
     .facturabtn img {
         width: 35%;
-        margin-top: 50px;
+        margin-top: 80px;
         margin-left: 4%;
         display: inline-flexbox;
     }
     /* FONDO */
     #fondo9
     {
-        bottom: 140px;
+        bottom: 100px;
         width: 150px;
-        right: 120px
+        right: 130px
     } 
     #fondo2{
         width: 100px;
