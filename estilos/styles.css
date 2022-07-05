@@ -113,6 +113,7 @@ header {
     position: absolute;
     right: 0;
 }
+
 @media (max-width: 1400px) {
     .whatsAppBtn img {
         max-width: 100px;

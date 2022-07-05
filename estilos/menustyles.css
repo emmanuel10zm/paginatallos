@@ -46,10 +46,6 @@ header {
     display: none;
     cursor: pointer;
 }
-.ntoggle h4{
-    display: inline-flex;
-    right: 10px;
-}
 .logo img {
     height: 60px;
     margin-top: 10px;
@@ -123,7 +119,59 @@ header {
     display: table-cell;
     padding-left: 40px;
 }
-
+/* FONDOS */ 
+.opacidad{
+    opacity: 20%;
+}
+#fondo6{
+    display: flex;
+    width: 200px;
+    position: absolute;
+    right: 0;
+    border-radius: 60%;
+}
+#fondo7{
+    display: flex;
+    width: 200px;
+    position: absolute;
+    left: 0;
+    border-radius: 60%;
+}
+#fondo8{
+    display: flex;
+    width: 200px;
+    position: absolute;
+    right: 0;
+    border-radius: 60%;
+}
+#fondo9{
+    display: flex;
+    width: 200px;
+    position: absolute;
+    left: 0;
+    border-radius: 60%;
+}
+#fondo10{
+    display: flex;
+    width: 200px;
+    position: absolute;
+    right: 0;
+    border-radius: 60%;
+}
+#fondo11{
+    display: flex;
+    width: 200px;
+    position: absolute;
+    left: 0;
+    border-radius: 60%;
+}
+#fondo12{
+    display: flex;
+    width: 200px;
+    position: absolute;
+    right: 0;
+    border-radius: 60%;
+}
 
 @media (max-width: 830px) {
     h2 {
@@ -238,4 +286,13 @@ header {
     flex-wrap: wrap;
     display: block;
 }
+/* FONDOS*/
+
+#fondo8{
+    width: 150px;
+    right: 0;
+    margin-top: -60px;
 }
+
+}
+
