@@ -46,6 +46,10 @@ header {
     display: none;
     cursor: pointer;
 }
+.ntoggle h4{
+    display: inline-flex;
+    right: 10px;
+}
 .logo img {
     height: 60px;
     margin-top: 10px;

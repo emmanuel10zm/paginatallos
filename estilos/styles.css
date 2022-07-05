@@ -8,8 +8,10 @@ header {
     width: 100%;
     top: 0;
     left: 0;
-    height: 80px;
+    height: 100px;
     background-color: #203525;
+    text-align: center;
+    color: white;
 }
 /*Pie de pagina para botones*/
 
@@ -51,7 +53,7 @@ header {
 
 /* Imagenes boton de Menu e Inicio*/
 .botones {
-    margin-top: 100px;
+    margin-top: 150px;
 }
 
 .menubtn img {
@@ -89,26 +91,28 @@ header {
 .facturabtn :hover {
     transform: scale(1.1);
 }
-/* background*/
-.fondoc1 img
-{
-    width: 100px;
-    right: 1100px;
-    border-radius: 50%;
-}
-.fondoc2 img
-{
-    width: 100px;
-    border-radius: 50%;
-    z-index: 2;
-}
-.fondoc3 img
-{
-    border-radius: 50%;
-    width: 100px;
-    z-index: 1;
-}
 
+/* background*/
+
+#fondo9{
+    display: flex;
+    border-radius: 40%;
+    width: 200px;
+    right: 10px;
+    bottom: 100px;
+    position: absolute;
+}
+#fondo2{
+    display: flex;
+    width: 200px;
+    position: absolute;
+}
+#fondo4{
+    display: flex;
+    width: 200px;
+    position: absolute;
+    right: 0;
+}
 @media (max-width: 1400px) {
     .whatsAppBtn img {
         max-width: 100px;
@@ -118,7 +122,7 @@ header {
         max-width: 100px;
     }
     .botones{
-        margin-top: 100px;
+        margin-top: 140px;
     }
     .menubtn img {
         width: 40%;
@@ -170,5 +174,21 @@ header {
         margin-top: 50px;
         margin-left: 4%;
         display: inline-flexbox;
+    }
+    /* FONDO */
+    #fondo9
+    {
+        bottom: 140px;
+        width: 150px;
+        right: 120px
+    } 
+    #fondo2{
+        width: 100px;
+        left: 0;
+    }
+    #fondo4{
+        width: 90px;
+        right: 0;
+        margin-top: 40px;
     }
 }
