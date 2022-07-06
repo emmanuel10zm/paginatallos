@@ -154,7 +154,7 @@ header {
 
 @media screen and (max-width: 780px) {
     header{
-        height: 60px;
+        height: 90px;
     }
     .whatsAppBtn img {
         max-width: 100px;
