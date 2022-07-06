@@ -55,7 +55,12 @@ header {
 .botones {
     margin-top: 150px;
 }
-
+.menubtn{
+    display: flexbox;
+    position: fixed;
+    left: 42%;
+    right: 10%;
+}
 .menubtn img {
     display: flexbox;
     position: fixed;
@@ -146,7 +151,8 @@ header {
         display: inline-flexbox;
     }
 }
-@media (max-width: 580px) {
+
+@media screen and (max-width: 780px) {
     header{
         height: 60px;
     }
@@ -196,3 +202,4 @@ header {
         margin-top: 40px;
     }
 }
+

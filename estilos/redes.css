@@ -157,7 +157,7 @@ header {
     position: fixed;
 }
 
-@media (max-width: 780px) {
+@media screen and (max-width: 780px) {
     .contenedor{
         margin-top: 100px;
     }

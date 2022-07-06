@@ -219,7 +219,7 @@ body{
     border-radius: 60%;
 }
 
-@media (max-width: 830px) {
+@media screen and (max-width: 780px) {
     h2 {
         font-size: 17px;
     }
