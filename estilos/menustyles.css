@@ -6,6 +6,10 @@ header {
     height: 80px;
     background-color: #203525;
 }
+body{
+    background-color: #ffffff;
+    font-family: Helvetica, sans-serif;
+}
 
 .menua {
     display: flex;
@@ -222,6 +226,7 @@ header {
 
     h4 {
         font-size: 14px;
+        font-weight: normal;
     }
 
     header {

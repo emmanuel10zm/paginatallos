@@ -1,6 +1,6 @@
 body {
     background-color: #ffffff;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica, sans-serif;
 }
 /* HEADER */ 
 header {
@@ -53,7 +53,7 @@ header {
 
 /* Imagenes boton de Menu e Inicio*/
 .botones {
-    margin-top: 100px;
+    margin-top: 150px;
 }
 
 .menubtn img {
@@ -147,6 +147,9 @@ header {
     }
 }
 @media (max-width: 580px) {
+    header{
+        height: 60px;
+    }
     .whatsAppBtn img {
         max-width: 100px;
     }

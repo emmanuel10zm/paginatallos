@@ -1,5 +1,6 @@
 body {
     background-color: rgb(255, 255, 255);
+    font-family: Helvetica, sans-serif;
 }
 
 .contenedor {
@@ -62,6 +63,7 @@ body {
     max-width: 200px;
     border-radius: 50%;
     margin-top: 40px;
+    margin-right: 40px;
 }
 .face {
     background: none;
@@ -78,6 +80,7 @@ body {
    max-width: 200px;
     border-radius: 50%;
 }
+
 
 /* HOVER */ 
 header {
@@ -134,27 +137,63 @@ header {
     cursor: pointer;
 }
 
+/* FONDOS */ 
+#fondo8{
+    display: flex;
+    border-radius: 40%;
+    width: 100px;
+    right: 50px;
+    bottom: 40px;
+    opacity: 40%;
+    position: absolute;
+}
+#fondo10{
+    display: flex;
+    border-radius: 40%;
+    width: 100px;
+    left: 50px;
+    bottom: 40px;
+    opacity: 40%;
+    position: absolute;
+}
+#fondo13{
+    display: flex;
+    border-radius: 40%;
+    width: 150px;
+    right: 50px;
+    opacity: 20%;
+    position: absolute;
+}
+#fondo6{
+    display: flex;
+    border-radius: 40%;
+    margin-top: 180px;
+    opacity: 20%;
+    width: 150px;
+    left: 50px;
+    position: absolute;
+}
+
 @media (max-width: 780px) {
     .contenedor{
-        margin-top: 50px;
+        margin-top: 100px;
     }
     .whatsAppBtn img {
-        max-width: 220px;
-        margin-top: 50px;
+        max-width: 150px;
     }
 
     .resopentable img {
-        max-width: 220px;
+        max-width: 150px;
         margin-top: 50px;
     }
 
     .instagram img {
-        max-width: 200px;
+        max-width: 100px;
+        margin-right: 40px;
     }
 
     .face img {
-        max-width: 200px;
-        margin-top: 30px;
+        max-width: 100px;
     }
     .whatsAppBtn
     {
@@ -173,6 +212,14 @@ header {
         background: none;
         border: none;
         transition: transform 0.25s ease-in-out;
+    }
+    .contenedor2
+    {
+        margin-top: -30px;
+    }
+    .redestxt
+    {
+        margin-top: 50px;
     }
     /* HOVER*/
     header {
