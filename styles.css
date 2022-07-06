@@ -1,6 +1,6 @@
 body {
     background-color: #ffffff;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Helvetica, sans-serif;
 }
 /* HEADER */ 
 header {
@@ -8,7 +8,7 @@ header {
     width: 100%;
     top: 0;
     left: 0;
-    height: 70px;
+    height: 100px;
     background-color: #203525;
     text-align: center;
     color: white;
@@ -53,9 +53,14 @@ header {
 
 /* Imagenes boton de Menu e Inicio*/
 .botones {
-    margin-top: 100px;
+    margin-top: 150px;
 }
-
+.menubtn{
+    display: flexbox;
+    position: fixed;
+    left: 42%;
+    right: 10%;
+}
 .menubtn img {
     display: flexbox;
     position: fixed;
@@ -98,7 +103,7 @@ header {
     display: flex;
     border-radius: 40%;
     width: 200px;
-    right: 10px;
+    right: 28vh;
     bottom: 100px;
     position: absolute;
 }
@@ -146,7 +151,11 @@ header {
         display: inline-flexbox;
     }
 }
-@media (max-width: 580px) {
+
+@media screen and (max-width: 780px) {
+    header{
+        height: 90px;
+    }
     .whatsAppBtn img {
         max-width: 100px;
     }
@@ -181,7 +190,7 @@ header {
     {
         bottom: 100px;
         width: 150px;
-        right: 130px
+        right: 28vh;
     } 
     #fondo2{
         width: 100px;
@@ -193,3 +202,4 @@ header {
         margin-top: 40px;
     }
 }
+
