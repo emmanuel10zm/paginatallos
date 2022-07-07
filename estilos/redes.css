@@ -70,6 +70,7 @@ body {
     background: none;
     border: none;
     transition: transform 0.25s ease-in-out;
+    
 }
 
 .face:hover {
@@ -161,6 +162,16 @@ header {
     position: fixed;
     z-index: 9;
 }
+#fondo12{
+    display: flex;
+    border-radius: 40%;
+    opacity: 20%;
+    bottom: 90px;
+    width: 150px;
+    right: 30px;
+    position: fixed;
+    z-index: 8;
+}
 
 @media screen and (max-width: 780px) {
     .contenedor{
@@ -204,6 +215,7 @@ header {
     .contenedor2
     {
         margin-top: -30px;
+        z-index: 46;
     }
     .redestxt
     {
