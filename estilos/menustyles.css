@@ -7,7 +7,8 @@ header {
     background-color: #203525;
     z-index: 50;
 }
-body{
+
+body {
     background-color: #ffffff;
     font-family: Helvetica, sans-serif;
 }
@@ -28,7 +29,8 @@ body{
     margin-right: 40px;
     list-style: none;
 }
-.menuindex{
+
+.menuindex {
     display: none;
 }
 
@@ -41,6 +43,7 @@ body{
     width: max-content;
     text-transform: uppercase;
 }
+
 .ntoggle {
     background: none;
     border: none;
@@ -50,8 +53,9 @@ body{
     line-height: 60px;
     display: none;
     cursor: pointer;
-    
+
 }
+
 .logo img {
     height: 60px;
     margin-top: 10px;
@@ -111,32 +115,36 @@ body{
     display: table-cell;
     padding-left: 40px;
 }
-.vinocelda
-{
+
+.vinocelda {
     display: table-cell;
     padding-left: 40px;
 }
-.cercelda
-{
+
+.cercelda {
     display: table-cell;
     padding-left: 40px;
 }
-.descelda{
+
+.descelda {
     display: table-cell;
     padding-left: 40px;
 }
-/* FONDOS */ 
-.opacidad{
+
+/* FONDOS */
+.opacidad {
     opacity: 20%;
 }
-#fondo1{
+
+#fondo1 {
     display: flex;
     width: 100px;
     position: absolute;
     right: 20px;
     border-radius: 99%;
 }
-#fondo2{
+
+#fondo2 {
     display: flex;
     width: 100px;
     position: absolute;
@@ -144,14 +152,16 @@ body{
     border-radius: 98%;
     margin-top: 60px;
 }
-#fondo3{
+
+#fondo3 {
     display: flex;
     width: 100px;
     position: absolute;
     right: 20px;
     border-radius: 98%;
 }
-#fondo6{
+
+#fondo6 {
     display: flex;
     width: 200px;
     position: absolute;
@@ -159,63 +169,72 @@ body{
     border-radius: 60%;
     margin-top: 30px;
 }
-#fondo7{
+
+#fondo7 {
     display: flex;
     width: 200px;
     position: absolute;
     left: 0;
     border-radius: 60%;
 }
-#fondo8{
+
+#fondo8 {
     display: flex;
     width: 200px;
     position: absolute;
     right: 0;
     border-radius: 60%;
 }
-#fondo9{
+
+#fondo9 {
     display: flex;
     width: 200px;
     position: absolute;
     left: 0;
     border-radius: 60%;
 }
-#fondo10{
+
+#fondo10 {
     display: flex;
     width: 200px;
     position: absolute;
     right: 0;
     border-radius: 60%;
 }
-#fondo11{
+
+#fondo11 {
     display: flex;
     width: 200px;
     position: absolute;
     left: 0;
     border-radius: 60%;
 }
-#fondo12{
+
+#fondo12 {
     display: flex;
     width: 200px;
     position: absolute;
     right: 0;
     border-radius: 60%;
 }
-#fondo13{
+
+#fondo13 {
     display: flex;
     width: 200px;
     position: absolute;
     left: 0;
     border-radius: 60%;
 }
-#fondo14{
+
+#fondo14 {
     display: flex;
     width: 200px;
     position: absolute;
     right: 0;
     border-radius: 60%;
 }
-#fondo15{
+
+#fondo15 {
     display: flex;
     width: 200px;
     position: absolute;
@@ -232,6 +251,10 @@ body{
         font-size: 14px;
         font-weight: normal;
     }
+    .subtitulo
+{
+    font-size: 22px;
+}
 
     header {
         display: flex;
@@ -258,10 +281,11 @@ body{
         left: 100%;
         transition: 0.3s;
         background-color: #203525;
-        align-items:center;
+        align-items: center;
     }
-    .menuindex{
-        display:block;
+
+    .menuindex {
+        display: block;
     }
 
     .ntoggle img {
@@ -289,10 +313,12 @@ body{
         flex-wrap: wrap;
         display: block;
     }
-    .descelda{
+
+    .descelda {
         flex-wrap: wrap;
         display: block;
     }
+
     .fuertescelda {
         flex-wrap: wrap;
         display: block;
@@ -327,23 +353,23 @@ body{
         flex-wrap: wrap;
         display: block;
     }
-    .vinocelda
-{
-    flex-wrap: wrap;
-    display: block;
-}
-.cercelda
-{
-    flex-wrap: wrap;
-    display: block;
-}
-/* FONDOS*/
 
-#fondo8{
-    width: 150px;
-    right: 0;
-    margin-top: -60px;
-}
+    .vinocelda {
+        flex-wrap: wrap;
+        display: block;
+    }
+
+    .cercelda {
+        flex-wrap: wrap;
+        display: block;
+    }
+
+    /* FONDOS*/
+
+    #fondo8 {
+        width: 150px;
+        right: 0;
+        margin-top: -60px;
+    }
 
 }
-
