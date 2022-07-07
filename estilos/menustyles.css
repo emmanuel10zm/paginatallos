@@ -49,6 +49,7 @@ body{
     line-height: 60px;
     display: none;
     cursor: pointer;
+    
 }
 .logo img {
     height: 60px;
@@ -132,21 +133,22 @@ body{
     width: 100px;
     position: absolute;
     right: 20px;
-    border-radius: 95%;
+    border-radius: 99%;
 }
 #fondo2{
     display: flex;
     width: 100px;
     position: absolute;
     right: 20px;
-    border-radius: 95%;
+    border-radius: 98%;
+    margin-top: 60px;
 }
 #fondo3{
     display: flex;
     width: 100px;
     position: absolute;
     right: 20px;
-    border-radius: 95%;
+    border-radius: 98%;
 }
 #fondo6{
     display: flex;
@@ -154,6 +156,7 @@ body{
     position: absolute;
     right: 0;
     border-radius: 60%;
+    margin-top: 30px;
 }
 #fondo7{
     display: flex;
@@ -241,7 +244,7 @@ body{
     }
 
     .ntoggle {
-        margin-top: 2px;
+        margin-top: -4px;
         display: block;
     }
 
