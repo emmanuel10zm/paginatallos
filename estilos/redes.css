@@ -18,7 +18,6 @@ body {
     background: none;
     border: none;
     transition: transform 0.25s ease-in-out;
-    z-index: 2;
 }
 
 .whatsAppBtn:hover {
@@ -38,7 +37,6 @@ body {
     background: none;
     border: none;
     transition: transform 0.25s ease-in-out;
-    z-index: 2;
 }
 
 .resopentable:hover {
@@ -82,7 +80,7 @@ body {
     margin-top: 40px;
    max-width: 200px;
     border-radius: 50%;
-    z-index: 49;
+    z-index: 47;
 }
 
 
@@ -170,7 +168,6 @@ header {
     }
     .whatsAppBtn img {
         max-width: 150px;
-        z-index: 2;
     }
 
     .resopentable img {
