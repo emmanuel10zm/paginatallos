@@ -203,17 +203,19 @@ header {
         z-index: 10;
         left: 50%;
         transform: translate(-50%,-50%);
-
+        opacity: 50%;
     } 
     #fondo2{
         width: 100px;
         left: 0;
         z-index: 9;
+        opacity: 50%;
     }
     #fondo4{
         width: 90px;
         right: 0;
         margin-top: 40px;
+        opacity: 50%;
     }
 }
 
