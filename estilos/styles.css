@@ -52,6 +52,10 @@ header {
 }
 
 /* Imagenes boton de Menu e Inicio*/
+.toggle{
+    display: none;
+}
+
 .botones {
     margin-top: 150px;
 }
@@ -60,6 +64,7 @@ header {
     position: fixed;
     left: 42%;
     right: 10%;
+    z-index: 50;
 }
 .menubtn img {
     display: flexbox;
@@ -106,17 +111,20 @@ header {
     right: 28vh;
     bottom: 100px;
     position: absolute;
+    z-index: 10;
 }
 #fondo2{
     display: flex;
     width: 200px;
     position: absolute;
+    z-index: 9;
 }
 #fondo4{
     display: flex;
     width: 200px;
     position: absolute;
     right: 0;
+    z-index: 8;
 }
 
 @media (max-width: 1400px) {
@@ -131,30 +139,36 @@ header {
         margin-top: 150px;
     }
     .menubtn img {
-        width: 40%;
+        width: 35%;
         margin-left: -11%;
         display:  flexbox;
-
+        z-index: 50;
     }
-
     .redesbtn img {
         margin-top: 50px;
-        width: 35%;
+        width: 30%;
         left: 10%;
         display: inline-flexbox;
+        z-index: 49;
     }
 
     .facturabtn img {
-        width: 35%;
+        width: 30%;
         margin-top: 50px;
         margin-left: 4%;
         display: inline-flexbox;
+        z-index: 48;
+    }
+    #fondo9
+    {
+        z-index: 10;
     }
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (max-width: 800px) {
     header{
-        height: 90px;
+        height: 98px;
+        z-index: 51;
     }
     .whatsAppBtn img {
         max-width: 100px;
@@ -163,38 +177,34 @@ header {
     .resopentable img {
         max-width: 100px;
     }
+    /* BOTONES */ 
     .botones{
         margin-top: 150;
     }
-    .menubtn img {
-        width: 65%;
-        margin-left: -23%;
-        display: flexbox;
+    .menubtn{
+        width: 100px;
+        position: relative;
+        z-index: 50;
     }
-
-    .redesbtn img {
-        margin-top: 80px;
-        width: 35%;
-        left: 10%;
-        display: inline-flexbox;
+    .redesbtn{
+        position: relative;
+        z-index: 49;
     }
-
-    .facturabtn img {
-        width: 35%;
-        margin-top: 80px;
-        margin-left: 4%;
-        display: inline-flexbox;
+    .facturabtn{
+        position: relative;
+        z-index: 48;
     }
     /* FONDO */
     #fondo9
     {
         bottom: 100px;
         width: 150px;
-        right: 28vh;
+        z-index: 10;
     } 
     #fondo2{
         width: 100px;
         left: 0;
+        z-index: 9;
     }
     #fondo4{
         width: 90px;

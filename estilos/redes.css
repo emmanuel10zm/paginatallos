@@ -28,6 +28,7 @@ body {
 .whatsAppBtn img {
     max-width: 200px;
     margin-top: 40px;
+    z-index: 50;
 }
 
 .resopentable {
@@ -47,6 +48,7 @@ body {
 .resopentable img {
     max-width: 200px;
     margin-top: 40px;
+    z-index: 49;
 }
 
 .instagram {
@@ -64,6 +66,7 @@ body {
     border-radius: 50%;
     margin-top: 40px;
     margin-right: 40px;
+    z-index: 48;
 }
 .face {
     background: none;
@@ -79,10 +82,11 @@ body {
     margin-top: 40px;
    max-width: 200px;
     border-radius: 50%;
+    z-index: 49;
 }
 
 
-/* HOVER */ 
+/* HEADER */ 
 header {
     position: fixed;
     width: 100%;
@@ -90,6 +94,7 @@ header {
     left: 0;
     height: 80px;
     background-color: #203525;
+    z-index: 51;
 }
 
 .menua {
@@ -146,6 +151,7 @@ header {
     right: 50px;
     opacity: 20%;
     position: fixed;
+    z-index: 10;
 }
 #fondo6{
     display: flex;
@@ -155,6 +161,7 @@ header {
     width: 150px;
     left: 30px;
     position: fixed;
+    z-index: 9;
 }
 
 @media screen and (max-width: 780px) {
@@ -163,6 +170,7 @@ header {
     }
     .whatsAppBtn img {
         max-width: 150px;
+        z-index: 2;
     }
 
     .resopentable img {
