@@ -108,10 +108,12 @@ header {
     display: flex;
     border-radius: 40%;
     width: 200px;
-    right: 28vh;
     bottom: 100px;
     position: absolute;
     z-index: 10;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 50%;
 }
 #fondo2{
     display: flex;
@@ -162,6 +164,9 @@ header {
     #fondo9
     {
         z-index: 10;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        opacity: 50%;
     }
 }
 
