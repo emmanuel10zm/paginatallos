@@ -1,0 +1,295 @@
+/* FUENTE */ 
+
+@font-face 
+{
+    font-family: palatino;
+    src: url(/fuentes/Palatino.ttc);
+}
+body {
+    background-color: white;
+    font-family: palatino, Helvetica;
+}
+
+/* FUENTE */ 
+
+/* HEADER */ 
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 80px;
+    background-color: #d8d8d8;
+    z-index: 50;
+}
+
+header .logo {
+
+    background-color: none;
+    border: none;
+    
+}
+
+.logo img {
+    height: 60px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.menua {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menuul {
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+}
+
+.menuitem {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin: 0 10px;
+    line-height: 40px;
+    width: max-content;
+    text-transform: uppercase;
+}
+
+.logo
+{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* HEADER */ 
+
+
+/* SLIDER */ 
+
+.slider
+{
+    width: 60%;
+    margin: auto;
+    margin-top: 100px;
+    overflow: hidden;
+}
+.slider ul
+{
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: cambio 20s infinite alternate;
+    animation-timing-function: ease-in;
+}
+
+.slider li 
+{
+    width: 100%;
+    list-style: none;
+}
+
+.slider img
+{
+    width: 100%;
+}
+
+@keyframes cambio 
+{
+    0%{ margin-left: 0;}   
+    20%{ margin-left: 0;}  
+
+    25%{ margin-left: -100%;}   
+    45%{ margin-left: -100%;}  
+    
+    50%{ margin-left: -200%;}   
+    70%{ margin-left: -200%;}  
+
+    75%{ margin-left: -300%;}   
+    100%{ margin-left: -300%;}  
+}
+
+/* SLIDER */ 
+
+/* FOOTER */ 
+
+footer
+{
+    width: 100%;
+    padding: 50px 0px;
+    *background-image: url(../imagenes/background-footer.svg);
+    *background-size: cover;
+    -webkit-mask-image: url(../imagenes/background-footer.svg);
+    mask-image: url(../imagenes/background-footer.svg);
+    background-color: #d8d8d8;
+    -webkit-mask-size: cover;
+    mask-size: cover;
+}
+
+.container-footer
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.box-footer
+{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    z-index: 48;
+}
+
+.box-footer .logo2 img
+{
+    z-index: 49;
+    width: 200px;
+}
+
+
+.box-footer .terms
+{
+    max-width: 350px;
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 18px;
+    color: black;
+}
+
+.box-footer h2
+{
+    margin-bottom:30px;
+    color: black;
+    font-weight: 700;
+}
+
+.box-footer a
+{
+    margin-top: 10px;
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.box-footer a:hover
+{
+    opacity: 0.8;
+}
+.box-footer a .fa-brands{
+    font-size: 20px;
+}
+.box-copyright
+{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 0px 40px;
+}
+.box-copyright p
+{
+    margin-top: 20px;
+    color: black;
+}
+.box-copyright hr
+{
+    border: none;
+    height: 1px;
+    background-color: white;
+}
+
+/* FOOTER */ 
+
+/* BACKGROUND */ 
+
+#Alcatraz
+{
+    display: flex;
+    border-radius: 40%;
+    max-width: 200px;
+    top: 40%;
+    position: absolute;
+    z-index: 1;
+    left: 90%;
+    transform: translate(-50%,-50%);
+    opacity: 50%;
+}
+
+#Amapola
+{
+    display: flex;
+    border-radius: 40%;
+    max-width: 200px;
+    position: absolute;
+    z-index: 2;
+    left: 85%;
+    transform: translate(-50%,-50%);
+    opacity: 50%;
+    bottom: -10%;
+}
+
+#Aretillo
+{
+    display: flex;
+    border-radius: 40%;
+    max-width: 200px;
+    bottom: 100px;
+    position: absolute;
+    z-index: 3;
+    left: 15%;
+    transform: translate(-50%,-50%);
+    opacity: 50%;
+}
+
+#Margarita
+{
+    display: flex;
+    border-radius: 40%;
+    max-width: 200px;
+    top: 250px;
+    position: absolute;
+    z-index: 4;
+    left: 10%;
+    transform: translate(-50%,-50%);
+    opacity: 50%;
+}
+/* BACKGROUND */ 
+
+@media screen and (max-width: 1250px)
+{
+    .slider
+    {
+        width: 70%;
+        margin: auto;
+        margin-top: 100px;
+        overflow: hidden;
+    }
+    .logo
+    {
+        display: none;
+    }
+    .menua {
+        display: flex;
+        justify-content: center;
+    }
+    #Alcatraz
+    {
+        max-width: 150px;
+    }
+
+    #Margarita
+    {
+        max-width: 150px;
+    }
+    #Aretillo
+    {
+        display: none;
+    }
+}
