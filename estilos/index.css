@@ -82,8 +82,8 @@ header .logo {
 {
     display: flex;
     padding: 0;
-    width: 400%;
-    animation: cambio 20s infinite alternate;
+    width: 700%;
+    animation: cambio 30s infinite alternate;
     animation-timing-function: ease-in;
 }
 
@@ -101,16 +101,25 @@ header .logo {
 @keyframes cambio 
 {
     0%{ margin-left: 0;}   
-    20%{ margin-left: 0;}  
+    15%{ margin-left: 0;}  
 
-    25%{ margin-left: -100%;}   
-    45%{ margin-left: -100%;}  
+    20%{ margin-left: -100%;}   
+    30%{ margin-left: -100%;}  
     
-    50%{ margin-left: -200%;}   
-    70%{ margin-left: -200%;}  
+    35%{ margin-left: -200%;}   
+    45%{ margin-left: -200%;}  
 
-    75%{ margin-left: -300%;}   
-    100%{ margin-left: -300%;}  
+    50%{ margin-left: -300%;}   
+    60%{ margin-left: -300%;}  
+
+    65%{ margin-left: -400%;}   
+    75%{ margin-left: -400%;} 
+
+    80%{ margin-left: -500%;}   
+    90%{ margin-left: -500%;} 
+
+    95%{ margin-left: -600%;}   
+    100%{ margin-left: -600%;} 
 }
 
 /* SLIDER */ 
