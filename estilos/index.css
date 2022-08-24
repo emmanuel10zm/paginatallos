@@ -83,7 +83,7 @@ header .logo {
     display: flex;
     padding: 0;
     width: 700%;
-    animation: cambio 30s infinite alternate;
+    animation: cambio 45s infinite alternate;
     animation-timing-function: ease-in;
 }
 
