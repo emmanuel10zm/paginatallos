@@ -206,7 +206,7 @@ h4
     margin-top: 100px;
     overflow: hidden;
 }
-h1
+h1 span
 {
     font-size: 40px;
     text-align: center;
@@ -248,9 +248,12 @@ h1
         font-size: 14px;
         font-weight: normal;
     }
-    .subtitulo
+    .subtitulo span
     {
     font-size: 22px;
+    }
+    span{
+        margin: 0%;
     }
     @media screen and (max-width: 380px)
     {
