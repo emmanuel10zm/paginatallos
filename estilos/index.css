@@ -6,14 +6,19 @@
     src: url(/fuentes/Palatino.ttc);
 }
 body {
-    background-color: white;
+    background-color: #d8d8d8;
     font-family: palatino, Helvetica;
 }
 
 /* FUENTE */ 
 
 /* HEADER */ 
-
+.tituloheader
+{
+    margin-top: 2px;
+font-size: 40px;
+color: white;
+}
 header {
     position: fixed;
     width: 100%;
@@ -23,6 +28,7 @@ header {
     background-color: #d8d8d8;
     z-index: 50;
 }
+
 
 header .logo {
 
@@ -68,6 +74,61 @@ header .logo {
 
 /* HEADER */ 
 
+/* MENU IMAGENES */ 
+
+a
+{
+    text-decoration: none;
+    color: white;
+}
+.desayuno
+{
+    margin-left: 15%;
+    margin-top: 100px;
+    width: 70%;
+    height: 200px;
+    transition: filter 0.4s ease-in-out;
+    background-color: #d8d8d8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* PANTONE DE FYT #203835*/
+}
+.desayuno:hover{
+    filter: brightness(50%);
+}
+.comida
+{
+    margin-left: 15%;
+    width: 70%;
+    margin-top: 20px;
+    height: 200px;
+    transition: filter 0.4s ease-in-out;
+    background-color: #d8d8d8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.comida:hover{
+    filter: brightness(50%);
+}
+.bebida
+{
+    margin-left: 15%;
+    margin-top: 20px;
+    width: 70%;
+    height: 200px;
+    transition: filter 0.4s ease-in-out;
+    background-color: #d8d8d8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bebida:hover{
+    filter: brightness(50%);
+}
+
+/* MENU IMAGENES */ 
 
 /* SLIDER */ 
 
@@ -216,61 +277,6 @@ footer
 
 /* FOOTER */ 
 
-/* BACKGROUND */ 
-
-#Alcatraz
-{
-    display: flex;
-    border-radius: 40%;
-    max-width: 200px;
-    top: 40%;
-    position: absolute;
-    z-index: 1;
-    left: 90%;
-    transform: translate(-50%,-50%);
-    opacity: 50%;
-}
-
-#Amapola
-{
-    display: flex;
-    border-radius: 40%;
-    max-width: 200px;
-    position: absolute;
-    z-index: 2;
-    left: 85%;
-    transform: translate(-50%,-50%);
-    opacity: 50%;
-    bottom: -10%;
-}
-
-#Aretillo
-{
-    display: flex;
-    border-radius: 40%;
-    max-width: 200px;
-    bottom: 100px;
-    position: absolute;
-    z-index: 3;
-    left: 15%;
-    transform: translate(-50%,-50%);
-    opacity: 50%;
-}
-
-#Margarita
-{
-    display: flex;
-    border-radius: 40%;
-    max-width: 200px;
-    top: 250px;
-    position: absolute;
-    z-index: 4;
-    left: 10%;
-    transform: translate(-50%,-50%);
-    opacity: 50%;
-}
-/* BACKGROUND */ 
-
 @media screen and (max-width: 1250px)
 {
     .slider
@@ -288,17 +294,47 @@ footer
         display: flex;
         justify-content: center;
     }
-    #Alcatraz
-    {
-        max-width: 150px;
-    }
+    /* MENU IMAGENES */ 
+.contenedor{
+    margin-top: 100px;
+    text-align: center;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
+.desayuno
+{
+    width: 70%;
+    height: 200px;
+}
+.desayuno:hover{
+    filter: brightness(50%);
+}
+.comida
+{
+    width: 70%;
+    height: 200px;
+}
+.comida:hover{
+    filter: brightness(50%);
+}
+.bebida
+{
+    width: 70%;
+    height: 200px;
+}
+.bebida:hover{
+    filter: brightness(50%);
+}
 
-    #Margarita
-    {
-        max-width: 150px;
-    }
-    #Aretillo
-    {
-        display: none;
-    }
+.contenedor h2{
+    transition: transform 0.4s ease-in-out;;
+    color: white;
+    justify-content: center;
+    text-decoration: none;
+    text-align: center;
+    transition: transform 0.4s ease-in-out;
+    text-shadow: 0 0 8px rgba(black);
+    top: 50%;
+}
 }
