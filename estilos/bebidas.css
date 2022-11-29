@@ -165,45 +165,13 @@ footer
 
 /* MENU */
 
-.coffee
+.cuerpo img
 {
-    margin-top: 100px;
-    overflow: hidden;
+    margin-top: 50px;
+    width: 100%;
 }
 
-.izquierda
-{
-    float: left;
-}
 
-.derecha
-{
-    float: right;
-}
-hr
-{
-    border: none;
-    height: 1px;
-    background-color: #d8d8d8;
-}
-.subtitulo
-{
-    font-size: 30px;
-}
-h2
-{
-    font-size: 23px;
-}
-h4
-{
-    font-size: 18px;
-    font-weight: normal;
-}
-h1
-{
-    font-size: 40px;
-    text-align: center;
-} 
 @media screen and (max-width: 1250px)
 {
     .logo
